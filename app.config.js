@@ -2,15 +2,15 @@ import 'dotenv/config';
 
 export default {
   "expo": {
-    "name": "ReactNativeBoilerPlate",
-    "slug": "ReactNativeBoilerPlate",
+    "name": "HelloApp",
+    "slug": "HelloApp",
     "plugins": [
       [
         "react-native-fbsdk-next",
         {
           "appID": "508108111436122",
           "clientToken": "359ee8ffd0a98227ab9e8bd5b7da6f57",
-          "displayName": "ReactNativeBoilerPlate",
+          "displayName": "HelloApp",
         },
       ],
       [
@@ -20,7 +20,7 @@ export default {
         }
       ]
     ],
-    "scheme" : "ReactNativeBoilerPlate",
+    "scheme" : "HelloApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -37,11 +37,11 @@ export default {
       "**/*"
     ],
     "ios": {
-      "bundleIdentifier": "com.ReactNativeBoilerPlate",
+      "bundleIdentifier": "com.HelloApp",
       "supportsTablet": true
     },
     "android": {
-      "package": "com.ReactNativeBoilerPlate",
+      "package": "com.HelloApp",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
@@ -57,9 +57,6 @@ export default {
       firebaseStorageBucket: process.env.FIREBASE_STORAGE_BUCKET,
       firebaseMessagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
       firebaseAppId: process.env.FIREBASE_APP_ID,
-      "eas" : {
-        "projectId": "c7568a51-3025-4e24-8e3b-10e7d2a2eace"
-      }
     },
   }
 }
