@@ -47,18 +47,18 @@ const SigninScreen: React.FC<StackScreenProps<any>> = ({ navigation }) => {
 
   const [reqGoogle, resGoogle, googlelogin] = Google.useIdTokenAuthRequest(
     {
-      clientId: "926984366249-jp61kk42fpvjqdioi5o41thd74n64ej8.apps.googleusercontent.com",
-      iosClientId: "926984366249-b4cc95kqg1cqqjm32ufja4c6rppnroce.apps.googleusercontent.com",
-      androidClientId: "926984366249-ik4vekooe5cv8e2iihb4hu5fasmaei0r.apps.googleusercontent.com",
+      clientId: "748027543804-5ncdlqv5pg4tjmj0qmb5jsn350ebc80q.apps.googleusercontent.com",
+      iosClientId: "748027543804-oupgbfdc9tje9oot64th3lnp1nh564fr.apps.googleusercontent.com",
+      androidClientId: "748027543804-aacvp9eqrio48ud17hsg4948p839srfi.apps.googleusercontent.com",
     },
   );
 
 
   const [reqFb, resFb, fblogin] = Facebook.useAuthRequest({
     responseType: ResponseType.Token,
-    clientId: '508108111436122',
-    androidClientId: "508108111436122",
-    iosClientId: "508108111436122",
+    clientId: '1884144825270373',
+    androidClientId: "1884144825270373",
+    iosClientId: "1884144825270373",
   });
 
 
